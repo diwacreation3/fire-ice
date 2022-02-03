@@ -1,0 +1,132 @@
+/*FIRE-ICE
+Developer:Diwakar phuyal
+Date:2/3/2022 1:24 PM
+for FIRE-ICE SeCURITY
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/background.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    box-sizing: border-box solid #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+nav ul li a:hover {
+    background: linear-gradient(45deg, #87adfe, #ff7777);
+    transition: all 0.3s ease;
+    ;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    margin-top: 24px;
+    color: #232d60;
+}
+
+.content p {
+    font-size: 20px;
+    color: #232d60;
+}
+
+.content {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content .btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff7777);
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.arrow-icons {
+    margin-top: 40px;
+    display: flex;
+}
+
+.arrow-icons img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.feature-img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+
+.social-links {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #6a7199;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+}
